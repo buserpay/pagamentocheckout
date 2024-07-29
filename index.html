@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Gerar PIX com Javascript</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+
+  <div id="qrcodePix"></div>
+  <p class="valor">R$ 69,90</p>
+
+  <div class="progress"></div>
+  <p>
+    Tempo para pagar:
+    <strong id="timer"></strong>
+  </p>
+
+  <p>Se preferir, copie o código:</p>
+  <textarea readonly id="chavePix" rows="3"></textarea>
+
+
+  <p class="info">
+    <strong>ATEN&Ccedil;&Atilde;O!</strong>
+    <br/>
+    Essa &eacute; uma chave PIX v&aacute;lida, ent&atilde;o n&atilde;o conclua o pagamento a n&atilde;o ser que deseja realizar doa&ccedil;&otilde;es.
+  </p>
+
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+<script src='https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
